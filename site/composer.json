@@ -28,6 +28,10 @@
   },
   "repositories": [
     {
+        "type": "composer",
+        "url": "https://wp-languages.github.io"
+    },
+    {
       "type": "composer",
       "url": "https://wpackagist.org"
     }
@@ -49,7 +53,8 @@
     "wpackagist-plugin/contact-form-7": "^5.0",
     "wpackagist-plugin/wp-smushit": "2.7.9.1",
     "wpackagist-plugin/addthis": "^6.1",
-    "wpackagist-plugin/updraftplus": "^1.14"
+    "wpackagist-plugin/updraftplus": "^1.14",
+    "koodimonni-language/es_ES": "^4.9"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
@@ -59,6 +64,11 @@
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "dropin-paths": {
+        "web/app/languages/": ["vendor:koodimonni-language"],
+        "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+        "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
     },
     "wordpress-install-dir": "web/wp"
   },
