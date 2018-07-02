@@ -56,7 +56,7 @@
     "koodimonni-language/es_ES": "^4.9",
     "johnpbloch/wordpress": "^4.9",
     "wpackagist-plugin/autoptimize": "^2.3",
-    "wpackagist-plugin/weather-layer": "^4.2"
+    "wpackagist-plugin/awesome-weather": "^1.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
