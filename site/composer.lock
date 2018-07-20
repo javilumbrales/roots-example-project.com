@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "008afed81a987c6f32adeb8f09a762e1",
+    "content-hash": "8cbc700849e88e1f96cbc71b7378ee73",
     "packages": [
         {
             "name": "composer/installers",
@@ -1014,6 +1014,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-super-cache/"
+        },
+        {
+            "name": "wpackagist-theme/oceanwp",
+            "version": "1.5.20",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/oceanwp/",
+                "reference": "1.5.20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/oceanwp.1.5.20.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/oceanwp/"
         }
     ],
     "packages-dev": [
