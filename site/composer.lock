@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96a3755cc408675ce1181df858a4eb9b",
+    "content-hash": "ed4840a299546e9010bcdc2774070116",
     "packages": [
         {
             "name": "composer/installers",
@@ -1054,6 +1054,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/poseidon/"
+        },
+        {
+            "name": "wpackagist-theme/rinzai",
+            "version": "1.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/rinzai/",
+                "reference": "1.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/rinzai.1.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/rinzai/"
         },
         {
             "name": "wpackagist-theme/twentyeleven",
