@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "74e64194bc11ba1e6e5b1176a5b48398",
+    "content-hash": "f576cd8b155d384e8e07fe901d8a9af7",
     "packages": [
         {
             "name": "composer/installers",
@@ -894,6 +894,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ga-google-analytics/"
+        },
+        {
+            "name": "wpackagist-plugin/gallery-lightbox-slider",
+            "version": "1.0.0.29",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gallery-lightbox-slider/",
+                "reference": "tags/1.0.0.29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gallery-lightbox-slider.1.0.0.29.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gallery-lightbox-slider/"
         },
         {
             "name": "wpackagist-plugin/polylang",
