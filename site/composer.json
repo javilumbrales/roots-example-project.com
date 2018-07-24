@@ -46,7 +46,6 @@
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/wordpress-seo": "^7.6",
     "wpackagist-plugin/woocommerce": "^3.4",
-    "wpackagist-plugin/ga-google-analytics": "20180506",
     "wpackagist-plugin/cookie-law-info": "^1.5",
     "wpackagist-plugin/contact-form-7": "^5.0",
     "wpackagist-plugin/wp-smushit": "2.7.9.1",
@@ -66,8 +65,7 @@
     "wpackagist-plugin/gallery-lightbox-slider": "1.0.0.29",
     "wpackagist-theme/seopress": "^1.5",
     "wpackagist-theme/satrah": "^30.8",
-    "wpackagist-plugin/w3-total-cache": "^0.9.7",
-    "wpackagist-plugin/speed-booster-pack": "^3.7"
+    "wpackagist-plugin/host-analyticsjs-local": "^1.72"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

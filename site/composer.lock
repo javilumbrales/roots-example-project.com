@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8acb3afe89cde3e82741aa473539e6e",
+    "content-hash": "7eeaf4cb54fba9d113038d2efc2d17c5",
     "packages": [
         {
             "name": "composer/installers",
@@ -876,26 +876,6 @@
             "homepage": "https://wordpress.org/plugins/cookie-law-info/"
         },
         {
-            "name": "wpackagist-plugin/ga-google-analytics",
-            "version": 20180506,
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ga-google-analytics/",
-                "reference": "tags/20180506"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ga-google-analytics.20180506.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ga-google-analytics/"
-        },
-        {
             "name": "wpackagist-plugin/gallery-lightbox-slider",
             "version": "1.0.0.29",
             "source": {
@@ -914,6 +894,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/gallery-lightbox-slider/"
+        },
+        {
+            "name": "wpackagist-plugin/host-analyticsjs-local",
+            "version": "1.72",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/host-analyticsjs-local/",
+                "reference": "tags/1.72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.1.72.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
         },
         {
             "name": "wpackagist-plugin/polylang",
@@ -936,26 +936,6 @@
             "homepage": "https://wordpress.org/plugins/polylang/"
         },
         {
-            "name": "wpackagist-plugin/speed-booster-pack",
-            "version": "3.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/speed-booster-pack/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/speed-booster-pack.zip?timestamp=1524851102",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/speed-booster-pack/"
-        },
-        {
             "name": "wpackagist-plugin/updraftplus",
             "version": "1.14.11",
             "source": {
@@ -974,26 +954,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/updraftplus/"
-        },
-        {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
