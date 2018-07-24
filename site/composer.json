@@ -66,7 +66,8 @@
     "wpackagist-plugin/gallery-lightbox-slider": "1.0.0.29",
     "wpackagist-theme/seopress": "^1.5",
     "wpackagist-theme/satrah": "^30.8",
-    "wpackagist-plugin/w3-total-cache": "^0.9.7"
+    "wpackagist-plugin/w3-total-cache": "^0.9.7",
+    "wpackagist-plugin/speed-booster-pack": "^3.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7b910cc84477b13cbb20e10f817ddad",
+    "content-hash": "f8acb3afe89cde3e82741aa473539e6e",
     "packages": [
         {
             "name": "composer/installers",
@@ -934,6 +934,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/polylang/"
+        },
+        {
+            "name": "wpackagist-plugin/speed-booster-pack",
+            "version": "3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/speed-booster-pack/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/speed-booster-pack.zip?timestamp=1524851102",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/speed-booster-pack/"
         },
         {
             "name": "wpackagist-plugin/updraftplus",
