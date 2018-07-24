@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f576cd8b155d384e8e07fe901d8a9af7",
+    "content-hash": "ea16b126e022140f6f576fa4933832e1",
     "packages": [
         {
             "name": "composer/installers",
@@ -1114,6 +1114,46 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/rinzai/"
+        },
+        {
+            "name": "wpackagist-theme/satrah",
+            "version": "30.8",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/satrah/",
+                "reference": "30.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/satrah.30.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/satrah/"
+        },
+        {
+            "name": "wpackagist-theme/seopress",
+            "version": "1.5.8",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/seopress/",
+                "reference": "1.5.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/seopress.1.5.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/seopress/"
         },
         {
             "name": "wpackagist-theme/twentyeleven",

@@ -64,7 +64,9 @@
     "wpackagist-theme/twentytwelve": "^2.5",
     "wpackagist-theme/rinzai": "^1.1",
     "wpackagist-plugin/wp-gallery-custom-links": "^1.12",
-    "wpackagist-plugin/gallery-lightbox-slider": "1.0.0.29"
+    "wpackagist-plugin/gallery-lightbox-slider": "1.0.0.29",
+    "wpackagist-theme/seopress": "^1.5",
+    "wpackagist-theme/satrah": "^30.8"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
