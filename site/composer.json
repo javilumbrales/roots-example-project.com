@@ -65,7 +65,8 @@
     "wpackagist-plugin/gallery-lightbox-slider": "1.0.0.29",
     "wpackagist-theme/seopress": "^1.5",
     "wpackagist-theme/satrah": "^30.8",
-    "wpackagist-plugin/host-analyticsjs-local": "^1.72"
+    "wpackagist-plugin/host-analyticsjs-local": "^1.72",
+    "wpackagist-plugin/options-importer": "^5.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
