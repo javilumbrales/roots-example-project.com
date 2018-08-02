@@ -7,6 +7,7 @@ wp plugin activate wp-smushit
 wp plugin activate wp-gallery-custom-links
 wp plugin activate wordpress-seo
 wp plugin activate updraftplus
+wp plugin activate wordpress-importer
 #wp plugin activate gallery-lightbox-slider
 
 
@@ -43,10 +44,28 @@ wp option update wpseo --format=json '{"ms_defaults_set":false,"version":"7.8","
 wp option update wpseo --format=json '{"ms_defaults_set":false,"version":"7.8","disableadvanced_meta":true,"onpage_indexability":true,"baiduverify":"","googleverify":"","msverify":"","yandexverify":"","site_type":"","has_multiple_authors":"","environment_type":"","content_analysis_active":true,"keyword_analysis_active":true,"enable_admin_bar_menu":true,"enable_cornerstone_content":true,"enable_xml_sitemap":true,"enable_text_link_counter":true,"show_onboarding_notice":true,"first_activated_on":1530482035,"website_name":"","alternate_website_name":"","company_logo":"","company_name":"","company_or_person":"","person_name":""}'
 wp option update wpseo_titles --format=json '{"title_test":0,"forcerewritetitle":false,"separator":"sc-dash","title-home-wpseo":"","title-author-wpseo":"%%name%%, Author at %%sitename%% %%page%%","title-archive-wpseo":"%%date%% %%page%% %%sep%% %%sitename%%","title-search-wpseo":"You searched for %%searchphrase%% %%page%% %%sep%% %%sitename%%","title-404-wpseo":"Page not found %%sep%% %%sitename%%","metadesc-home-wpseo":"","metadesc-author-wpseo":"","metadesc-archive-wpseo":"","rssbefore":"","rssafter":"The post %%POSTLINK%% appeared first on %%BLOGLINK%%.","noindex-author-wpseo":false,"noindex-author-noposts-wpseo":true,"noindex-archive-wpseo":true,"disable-author":true,"disable-date":true,"disable-post_format":true,"disable-attachment":false,"is-media-purge-relevant":false,"breadcrumbs-404crumb":"Error 404: Page not found","breadcrumbs-display-blog-page":false,"breadcrumbs-boldlast":false,"breadcrumbs-archiveprefix":"Archives for","breadcrumbs-enable":false,"breadcrumbs-home":"Home","breadcrumbs-prefix":"","breadcrumbs-searchprefix":"You searched for","breadcrumbs-sep":"\u00bb","website_name":"","person_name":"","alternate_website_name":"","company_logo":"","company_name":"","company_or_person":"","stripcategorybase":false,"title-post":"%%title%% - %%sitename%%","metadesc-post":"%%excerpt%%","noindex-post":false,"showdate-post":false,"display-metabox-pt-post":true,"title-page":"%%title%%","metadesc-page":"%%excerpt%%","noindex-page":false,"showdate-page":false,"display-metabox-pt-page":true,"title-attachment":"%%title%% %%page%% %%sep%% %%sitename%%","metadesc-attachment":"","noindex-attachment":true,"showdate-attachment":false,"display-metabox-pt-attachment":false,"title-tax-category":"%%term_title%% Archives %%page%% %%sep%% %%sitename%%","metadesc-tax-category":"","display-metabox-tax-category":false,"noindex-tax-category":true,"title-tax-post_tag":"%%term_title%% Archives %%page%% %%sep%% %%sitename%%","metadesc-tax-post_tag":"","display-metabox-tax-post_tag":false,"noindex-tax-post_tag":true,"title-tax-post_format":"%%term_title%% Archives %%page%% %%sep%% %%sitename%%","metadesc-tax-post_format":"","display-metabox-tax-post_format":false,"noindex-tax-post_format":true,"post_types-post-maintax":0,"title-cookielawinfo":"%%title%% %%page%% %%sep%% %%sitename%%","metadesc-cookielawinfo":"","noindex-cookielawinfo":false,"showdate-cookielawinfo":false,"display-metabox-pt-cookielawinfo":true,"post_types-page-maintax":0,"post_types-cookielawinfo-maintax":0,"breadcrumbs-blog-remove":true,"hideeditbox-post":false,"hideeditbox-page":false,"hideeditbox-attachment":true,"hideeditbox-tax-category":true,"hideeditbox-tax-post_tag":true,"hideeditbox-tax-post_format":true,"hideeditbox-cookielawinfo":false}'
 
-wp option update theme_mods_seopress '{"nav_menu_locations":[],"custom_css_post_id":114,"seopress_display_top_bar":false,"seopress_center_footer_setting":"<p><a href=\"https:\/\/demadera.club\/politica-de-privacidad\/\">Pol\u00edtica de Privacidad<\/a><\/p>","custom_logo":"","header_image":"remove-header","custom_logo_width":"600","header_layout":"5"}'
+
+wp theme mod set seopress_display_top_bar ''
+wp theme mod set header_layout 5
+wp theme mod set seopress_center_footer_setting '<p><a href="/politica-de-privacidad/">Política de Privacidad</a></p>'
+wp theme mod set sb_menu_onoff 1
+wp theme mod set seopress_blog_archive_layout fullw
+wp theme mod set seopress_blog_single_layout fullw
+wp theme mod set seopress_posts_meta_disply ''
+wp theme mod set seopress_post_meta_disply ''
+wp theme mod set seopress_sticky_dt_disply ''
+wp theme mod set seopress_breadcrumbx_setting ''
+
+wp menu create "main"
+wp menu location assign main primary
+wp menu location assign main sidebar
+
 
 wp post delete 1 --force # delete hello world
 wp post delete 2 --force # delete sample page
 wp post delete 3 --force # delete privacy policy
 
 wp import initialposts.xml --authors=create
+
+wp option update show_on_front page
+wp option update page_on_front `wp post create --post_type=page --post_title='Inicio' --post_status=publish --porcelain --meta_input='{"_wp_page_template":"template-full-width.php"}'`

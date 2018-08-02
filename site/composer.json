@@ -56,17 +56,14 @@
     "wpackagist-plugin/autoptimize": "^2.3",
     "wpackagist-plugin/awesome-weather": "^1.5",
     "wpackagist-plugin/polylang": "^2.3",
-    "wpackagist-theme/oceanwp": "^1.5",
-    "wpackagist-theme/poseidon": "^1.6",
     "wpackagist-theme/twentyeleven": "^2.8",
     "wpackagist-theme/twentytwelve": "^2.5",
-    "wpackagist-theme/rinzai": "^1.1",
     "wpackagist-plugin/wp-gallery-custom-links": "^1.12",
     "wpackagist-plugin/gallery-lightbox-slider": "1.0.0.29",
     "wpackagist-theme/seopress": "^1.5",
-    "wpackagist-theme/satrah": "^30.8",
     "wpackagist-plugin/host-analyticsjs-local": "^1.72",
-    "wpackagist-plugin/options-importer": "^5.0"
+    "wpackagist-plugin/options-importer": "^5.0",
+    "wpackagist-plugin/wordpress-importer": "^0.6.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

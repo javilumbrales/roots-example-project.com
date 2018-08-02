@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7a20acf7dc8a6101335b8ce79d261ae",
+    "content-hash": "0c4c07149ad9be3101e01a749ef821ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -996,6 +996,26 @@
             "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "7.8",
             "source": {
@@ -1054,86 +1074,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-smushit/"
-        },
-        {
-            "name": "wpackagist-theme/oceanwp",
-            "version": "1.5.20",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/oceanwp/",
-                "reference": "1.5.20"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/oceanwp.1.5.20.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/oceanwp/"
-        },
-        {
-            "name": "wpackagist-theme/poseidon",
-            "version": "1.6",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/poseidon/",
-                "reference": "1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/poseidon.1.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/poseidon/"
-        },
-        {
-            "name": "wpackagist-theme/rinzai",
-            "version": "1.1.4",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/rinzai/",
-                "reference": "1.1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/rinzai.1.1.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/rinzai/"
-        },
-        {
-            "name": "wpackagist-theme/satrah",
-            "version": "30.8",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/satrah/",
-                "reference": "30.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/satrah.30.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/satrah/"
         },
         {
             "name": "wpackagist-theme/seopress",
