@@ -67,5 +67,8 @@ wp post delete 3 --force # delete privacy policy
 
 wp import initialposts.xml --authors=create
 
+wp import css.xml --authors=create
+wp theme mod set custom_css_post_id `wp post list --post_type=custom_css --format=ids`
+
 wp option update show_on_front page
 wp option update page_on_front `wp post create --post_type=page --post_title='Inicio' --post_status=publish --porcelain --meta_input='{"_wp_page_template":"template-full-width.php"}'`
