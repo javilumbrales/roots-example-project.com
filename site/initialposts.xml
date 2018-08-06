@@ -36,24 +36,6 @@
   <wp:author_first_name><![CDATA[]]></wp:author_first_name>
   <wp:author_last_name><![CDATA[]]></wp:author_last_name>
 </wp:author>
-<wp:category>
-  <wp:term_id>1</wp:term_id>
-  <wp:category_nicename>futbol-sala</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Futbol Sala]]></wp:cat_name>
-</wp:category>
-<wp:category>
-  <wp:term_id>10</wp:term_id>
-  <wp:category_nicename>futsal</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Futsal]]></wp:cat_name>
-</wp:category>
-<wp:category>
-  <wp:term_id>18</wp:term_id>
-  <wp:category_nicename>memes-futbol</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Memes de Futbol]]></wp:cat_name>
-</wp:category>
 <wp:term>
   <wp:term_id>4</wp:term_id>
   <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
