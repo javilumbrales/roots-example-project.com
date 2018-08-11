@@ -239,8 +239,6 @@ Si tienes cualquier duda sobre esta Política de Cookies, puedes contactar con n
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="language" nicename="es"><![CDATA[Español]]></category>
-  <category domain="post_translations" nicename="pll_5b5273bb5d840"><![CDATA[pll_5b5273bb5d840]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -420,8 +418,6 @@ Te recordamos que, para más información, puedes consultar nuestras páginas de
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="language" nicename="es"><![CDATA[Español]]></category>
-  <category domain="post_translations" nicename="pll_5b527463b9f5a"><![CDATA[pll_5b527463b9f5a]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -464,8 +460,6 @@ Si deseas contactarnos usa este formulario:
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="language" nicename="es"><![CDATA[Español]]></category>
-  <category domain="post_translations" nicename="pll_5b5275e9822af"><![CDATA[pll_5b5275e9822af]]></category>
   <wp:postmeta>
     <wp:meta_key>_edit_last</wp:meta_key>
     <wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -561,8 +555,6 @@ We reserve the right to make any changes and corrections to this notice. Please 
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="language" nicename="en"><![CDATA[English]]></category>
-  <category domain="post_translations" nicename="pll_5b5273bb5d840"><![CDATA[pll_5b5273bb5d840]]></category>
   <wp:postmeta>
     <wp:meta_key>_yoast_wpseo_meta-robots-noindex</wp:meta_key>
     <wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -678,8 +670,6 @@ LUMBRALES SOFTWARE, agrees to treat your personal information with respect and a
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="language" nicename="en"><![CDATA[English]]></category>
-  <category domain="post_translations" nicename="pll_5b527463b9f5a"><![CDATA[pll_5b527463b9f5a]]></category>
   <wp:postmeta>
     <wp:meta_key>_yoast_wpseo_meta-robots-noindex</wp:meta_key>
     <wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -722,8 +712,6 @@ If you would like to get in touch fill in this form:
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
-  <category domain="language" nicename="en"><![CDATA[English]]></category>
-  <category domain="post_translations" nicename="pll_5b5275e9822af"><![CDATA[pll_5b5275e9822af]]></category>
   <wp:postmeta>
     <wp:meta_key>_yoast_wpseo_meta-robots-noindex</wp:meta_key>
     <wp:meta_value><![CDATA[1]]></wp:meta_value>
