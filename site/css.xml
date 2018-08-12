@@ -36,30 +36,6 @@
   <wp:author_first_name><![CDATA[]]></wp:author_first_name>
   <wp:author_last_name><![CDATA[]]></wp:author_last_name>
 </wp:author>
-<wp:category>
-  <wp:term_id>3</wp:term_id>
-  <wp:category_nicename>futbol-sala</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Futbol Sala]]></wp:cat_name>
-</wp:category>
-<wp:category>
-  <wp:term_id>4</wp:term_id>
-  <wp:category_nicename>futsal</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Futsal]]></wp:cat_name>
-</wp:category>
-<wp:category>
-  <wp:term_id>5</wp:term_id>
-  <wp:category_nicename>memes-futbol</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Memes de Futbol]]></wp:cat_name>
-</wp:category>
-<wp:category>
-  <wp:term_id>1</wp:term_id>
-  <wp:category_nicename>uncategorized</wp:category_nicename>
-  <wp:category_parent/>
-  <wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
-</wp:category>
 <wp:term>
   <wp:term_id>6</wp:term_id>
   <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
@@ -101,20 +77,6 @@
   <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
   <wp:term_slug>footer-english</wp:term_slug>
   <wp:term_name><![CDATA[Footer English]]></wp:term_name>
-</wp:term>
-<wp:term>
-  <wp:term_id>3</wp:term_id>
-  <wp:term_taxonomy>category</wp:term_taxonomy>
-  <wp:term_slug>futbol-sala</wp:term_slug>
-  <wp:term_parent/>
-  <wp:term_name><![CDATA[Futbol Sala]]></wp:term_name>
-</wp:term>
-<wp:term>
-  <wp:term_id>4</wp:term_id>
-  <wp:term_taxonomy>category</wp:term_taxonomy>
-  <wp:term_slug>futsal</wp:term_slug>
-  <wp:term_parent/>
-  <wp:term_name><![CDATA[Futsal]]></wp:term_name>
 </wp:term>
 <wp:term>
   <wp:term_id>2</wp:term_id>
@@ -158,6 +120,84 @@
   <description/>
   <content:encoded><![CDATA[.headermain a h3 {
     font-size: 44px;
+}
+
+ #navbarouter {
+	display: none;
+ }
+
+.headermain {
+	padding-bottom: 0;
+}
+.headermain p {
+	display: none;
+}
+.side-menu-menu-button {
+	display: none;
+}
+.entry-title {
+	margin-top: 0;
+	color: #337ab7 !important;
+	background-color: inherit !important;
+	text-align: center;
+  border: 0 !important;
+	font-size: 21px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	padding-top: 0 !important;
+}
+
+
+@media only screen and (max-width: 480px) {
+	/* For displaying single column on mobile in Galleries */
+	.col-md-12 {
+		padding: 0;
+	}
+ .gallery-columns-3 .gallery-item {
+     width: 100%;
+		max-width: 100%;
+ }
+ #cookie-law-info-bar {
+		text-align: right;
+		padding-right: 12px;
+ }
+	#cookie-law-info-bar .cli-plugin-main-link {
+		text-decoration: underline;
+	}
+	#cookie-law-info-bar .cli-plugin-main-button {
+		min-width: 80px;
+		text-align: center;
+	}
+	.side-menu-menu-button {
+		display: block;
+		width: 64px;
+		height: 64px;
+		border-radius: 34px;
+		font-size: 36px;
+		padding-top: 13px;
+		bottom: 4rem;
+		right: 1.5rem;
+		left: inherit;
+	}
+	.side-menu-close-button {
+		font-size: 1.25em;
+	}
+	.headermain a h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 25px;
+		border-bottom: 1px solid #337ab7;
+		padding: 4px;
+		padding-bottom: 12px;
+	}
+	.entry-title {
+		font-size: 20px;
+		padding: 0 !important;
+	}
+	.container {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
 }]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>7</wp:post_id>
