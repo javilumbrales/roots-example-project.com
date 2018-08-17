@@ -85,13 +85,6 @@
   <wp:term_name><![CDATA[main]]></wp:term_name>
 </wp:term>
 <wp:term>
-  <wp:term_id>5</wp:term_id>
-  <wp:term_taxonomy>category</wp:term_taxonomy>
-  <wp:term_slug>memes-futbol</wp:term_slug>
-  <wp:term_parent/>
-  <wp:term_name><![CDATA[Memes de Futbol]]></wp:term_name>
-</wp:term>
-<wp:term>
   <wp:term_id>8</wp:term_id>
   <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
   <wp:term_slug>top-menu</wp:term_slug>
@@ -122,15 +115,20 @@
     font-size: 44px;
 }
 
- #navbarouter {
-	display: none;
- }
-
+.home #navbarouter {
+		display: none;
+}
+#navbarouter {
+	margin-top: 12px;
+}
 .headermain {
 	padding-bottom: 0;
 }
 .headermain p {
 	display: none;
+}
+.full-width-mobile {
+	padding: 5px 0px 20px 0px;
 }
 .side-menu-menu-button {
 	display: none;
@@ -139,14 +137,20 @@
 	margin-top: 0;
 	color: #337ab7 !important;
 	background-color: inherit !important;
-	text-align: center;
   border: 0 !important;
-	font-size: 21px;
+	font-size: 2.75rem;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	padding-top: 0 !important;
 }
+.home .entry-title {
+	text-align: center;
+	font-size: 21px;
+}
 
+.content-third {
+	padding: 0;
+}
 
 @media only screen and (max-width: 480px) {
 	/* For displaying single column on mobile in Galleries */
@@ -155,11 +159,15 @@
 	}
  .gallery-columns-3 .gallery-item {
      width: 100%;
-		max-width: 100%;
+	   max-width: 100%;
+ }
+	/* tweaks for mobile */
+	#navbarouter {
+		display: none;
  }
  #cookie-law-info-bar {
 		text-align: right;
-		padding-right: 12px;
+	  padding-right: 12px;
  }
 	#cookie-law-info-bar .cli-plugin-main-link {
 		text-decoration: underline;
@@ -171,12 +179,12 @@
 	.side-menu-menu-button {
 		display: block;
 		width: 64px;
-		height: 64px;
-		border-radius: 34px;
+    height: 64px;
+    border-radius: 34px;
 		font-size: 36px;
 		padding-top: 13px;
 		bottom: 4rem;
-		right: 1.5rem;
+    right: 1.5rem;
 		left: inherit;
 	}
 	.side-menu-close-button {
@@ -184,19 +192,28 @@
 	}
 	.headermain a h3 {
 		margin-top: 0;
-		margin-bottom: 0;
-		font-size: 25px;
-		border-bottom: 1px solid #337ab7;
-		padding: 4px;
-		padding-bottom: 12px;
+    margin-bottom: 0;
+	  font-size: 25px;
+    border-bottom: 1px solid #337ab7;
+    padding: 4px;
+	  padding-bottom: 12px;
 	}
 	.entry-title {
 		font-size: 20px;
 		padding: 0 !important;
 	}
 	.container {
-		padding-right: 5px;
-		padding-left: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+	}
+	.full-width-mobile {
+		margin: 0 -0.75rem 2rem -0.75rem;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.headermain a h3 {
+		font-size: 22px;
 	}
 }]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>

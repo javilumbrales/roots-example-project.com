@@ -56,6 +56,7 @@ wp option update glg_gallery_fancy_caption true
 wp option update permalink_structure "/%category%/%postname%/"
 wp option update timezone_string $timezone
 wp option update WPLANG $lang
+wp option update ping_sites --format=json 'http:\/\/rpc.pingomatic.com\nhttp:\/\/rpc.twingly.com\nhttp:\/\/api.feedster.com\/ping\nhttp:\/\/api.moreover.com\/RPC2\nhttp:\/\/api.moreover.com\/ping\nhttp:\/\/www.blogdigger.com\/RPC2\nhttp:\/\/www.blogshares.com\/rpc.php\nhttp:\/\/www.blogsnow.com\/ping\nhttp:\/\/www.blogstreet.com\/xrbin\/xmlrpc.cgi\nhttp:\/\/bulkfeeds.net\/rpc\nhttp:\/\/www.newsisfree.com\/xmlrpctest.php\nhttp:\/\/ping.blo.gs\/\nhttp:\/\/ping.feedburner.com\nhttp:\/\/ping.syndic8.com\/xmlrpc.php\nhttp:\/\/ping.weblogalot.com\/rpc.php\nhttp:\/\/rpc.blogrolling.com\/pinger\/\nhttp:\/\/rpc.technorati.com\/rpc\/ping\nhttp:\/\/rpc.weblogs.com\/RPC2\nhttp:\/\/www.feedsubmitter.com\nhttp:\/\/blo.gs\/ping.php\nhttp:\/\/www.pingerati.net\nhttp:\/\/www.pingmyblog.com\nhttp:\/\/geourl.org\/ping\nhttp:\/\/ipings.com\nhttp:\/\/www.weblogalot.com\/ping'
 
 wp option update wordpress_api_key "870adb89f494"
 wp option update akismet_comment_form_privacy_notice "hide"
