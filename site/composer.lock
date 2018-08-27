@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c4c07149ad9be3101e01a749ef821ba",
+    "content-hash": "d39c4c3ccffc421e8899fdcc2574246c",
     "packages": [
         {
             "name": "composer/installers",
@@ -834,6 +834,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/awesome-weather/"
+        },
+        {
+            "name": "wpackagist-plugin/column-shortcodes",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/column-shortcodes/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/column-shortcodes.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/column-shortcodes/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
