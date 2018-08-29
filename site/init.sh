@@ -41,6 +41,8 @@ wp plugin activate wp-gallery-custom-links
 wp plugin activate wordpress-seo
 wp plugin activate updraftplus
 wp plugin activate wordpress-importer
+wp plugin activate column-shortcodes
+wp plugin activate redirection
 
 wp plugin activate gallery-lightbox-slider
 wp option update glg_gallery_autoplay false
