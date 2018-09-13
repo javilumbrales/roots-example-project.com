@@ -114,9 +114,69 @@
   <content:encoded><![CDATA[.headermain a h3 {
     font-size: 44px;
 }
+h1, h2, h3, h4, h5, h6 {
+	text-transform: none !important;
+}
+body h3, .h3 {
+	font-size: 2rem;
+}
+body h2, .h2 {
+  font-size: 2.5rem;
+}
+.steps {
+  clear: both;
+  list-style: none;
+  padding-left: 2%;
+}
+.steps h3 {
+	margin-left: 15px;
+}
+.steps li {
+  margin: 1em 0;
+	padding-top: 0.2em;
+  display: block;
+  position: relative;
+  counter-increment: inst;
+}
+.steps li::before {
+  content: counter(inst);
 
-.home #navbarouter {
-		display: none;
+  background: #337ab7;
+  color: #fff;
+
+  font-size: 1em;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 1px 1px rgba(255, 150, 0, 0.5);
+
+  border-radius: 0 0.675em 0.675em 0;
+  font-size: 1.4em;
+  text-align: center;
+
+  padding-top: 0;
+  padding-left: 2.25%;
+  left: -5%;
+  top: 0.85em;
+  height: 1.5em;
+  width: 1.35em;
+  position: absolute;
+
+  transition: all 0.2s ease-in-out;
+
+  z-index: -1;
+}
+@media (min-width: 33em) {
+  .steps li:before {
+    border-radius: 50%;
+    font-size: 1.5em;
+    height: 1.35em;
+    margin-left: 2.5%;
+    padding-left: 0;
+    padding-top: 0;
+    top: 0.8em;
+    width: 1.35em;
+    z-index: -1;
+  }
 }
 #navbarouter {
 	margin-top: 12px;
@@ -138,14 +198,13 @@
 	color: #337ab7 !important;
 	background-color: inherit !important;
   border: 0 !important;
-	font-size: 2.75rem;
+	font-size: 3rem;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	padding-top: 0 !important;
 }
 .home .entry-title {
 	text-align: center;
-	font-size: 21px;
 }
 
 .content-third {
@@ -154,12 +213,12 @@
 
 @media only screen and (max-width: 480px) {
 	/* For displaying single column on mobile in Galleries */
+	ul, ol {
+    padding-left: 14px;
+  }
 	.col-md-12 {
 		padding: 0;
 	}
-    ul, ol {
-        padding-left: 5px;
-    }
  .gallery-columns-3 .gallery-item {
      width: 100%;
 	   max-width: 100%;
@@ -202,7 +261,6 @@
 	  padding-bottom: 12px;
 	}
 	.entry-title {
-		font-size: 20px;
 		padding: 0 !important;
 	}
 	.container {
