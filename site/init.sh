@@ -95,7 +95,6 @@ wp option update autoptimize_js on
 wp option update autoptimize_js_include_inline on
 wp option update autoptimize_css on
 wp option update autoptimize_css_defer on
-wp option update autoptimize_css_inline on
 wp option update autoptimize_css_include_inline on
 wp option update autoptimize_show_adv 1
 wp option update autoptimize_extra_settings --format=json '{"autoptimize_extra_checkbox_field_1":"1","autoptimize_extra_checkbox_field_0":"1","autoptimize_extra_radio_field_4":"4","autoptimize_extra_text_field_2":"","autoptimize_extra_text_field_3":""}'

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0729d1823c9bb4caeca571e83b5741ab",
+    "content-hash": "f2b1663a17b1979e6778e7abe94614f5",
     "packages": [
         {
             "name": "composer/installers",
@@ -954,6 +954,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
+        },
+        {
+            "name": "wpackagist-plugin/kk-star-ratings",
+            "version": "2.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/kk-star-ratings/",
+                "reference": "tags/2.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kk-star-ratings.2.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kk-star-ratings/"
         },
         {
             "name": "wpackagist-plugin/options-importer",
