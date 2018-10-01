@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2b1663a17b1979e6778e7abe94614f5",
+    "content-hash": "6e6df0f50befe5d35c8970ccb48413b1",
     "packages": [
         {
             "name": "composer/installers",
@@ -756,6 +756,26 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
+            "name": "wpackagist-plugin/ad-inserter",
+            "version": "2.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ad-inserter/",
+                "reference": "tags/2.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ad-inserter.2.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ad-inserter/"
+        },
+        {
             "name": "wpackagist-plugin/addthis",
             "version": "6.1.7",
             "source": {
@@ -817,15 +837,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.3.4",
+            "version": "2.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.3.4"
+                "reference": "tags/2.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -897,15 +917,15 @@
         },
         {
             "name": "wpackagist-plugin/cookie-law-info",
-            "version": "1.6.5",
+            "version": "1.6.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookie-law-info/",
-                "reference": "tags/1.6.5"
+                "reference": "tags/1.6.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-law-info.1.6.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/cookie-law-info.1.6.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -914,6 +934,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cookie-law-info/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-comment-url",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-comment-url/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comment-url.zip?timestamp=1510185003",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-comment-url/"
         },
         {
             "name": "wpackagist-plugin/gallery-lightbox-slider",
@@ -937,15 +977,15 @@
         },
         {
             "name": "wpackagist-plugin/host-analyticsjs-local",
-            "version": "1.87",
+            "version": "1.97",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/host-analyticsjs-local/",
-                "reference": "tags/1.87"
+                "reference": "tags/1.97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.1.87.zip",
+                "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.1.97.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1017,15 +1057,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "3.4.1",
+            "version": "3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/3.4.1"
+                "reference": "tags/3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.3.4.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.3.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1037,15 +1077,15 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.14.13",
+            "version": "1.15.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.14.13"
+                "reference": "tags/1.15.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.14.13.zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.15.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1219,16 +1259,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "628a481780561150481a9ec74709092b9759b3ec"
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/628a481780561150481a9ec74709092b9759b3ec",
-                "reference": "628a481780561150481a9ec74709092b9759b3ec",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6ad28354c04b364c3c71a34e4a18b629cc3b231e",
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e",
                 "shasum": ""
             },
             "require": {
@@ -1266,7 +1306,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-07-26T23:47:18+00:00"
+            "time": "2018-09-23T23:08:17+00:00"
         }
     ],
     "aliases": [],

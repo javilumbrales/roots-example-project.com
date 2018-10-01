@@ -43,6 +43,7 @@ wp plugin activate updraftplus
 wp plugin activate wordpress-importer
 wp plugin activate column-shortcodes
 wp plugin activate redirection
+wp plugin activate disable-comment-url
 
 wp plugin activate gallery-lightbox-slider
 wp option update glg_gallery_autoplay false
