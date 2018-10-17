@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6715f54fe751697b68bf074421dc57f3",
+    "content-hash": "2b4304b8a2ab72a546390203d909a2c7",
     "packages": [
         {
             "name": "composer/installers",
@@ -127,12 +127,12 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
-            "name": "javilumbrales/reduce-bounce-rate",
-            "version": "1.0.0",
+            "name": "javilumbrales/rbr",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/javilumbrales/reduce-bounce-rate.git",
-                "reference": "5a268d6066055dc3ed13585f94da4c6a14eee61e"
+                "url": "https://github.com/javilumbrales/rbr.git",
+                "reference": "b34e9afdf8c9e7e597fde9eade745582fc6dca54"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -147,8 +147,8 @@
                     "email": "info@lumbrales-software.com"
                 }
             ],
-            "description": "Reduce Boune Rate",
-            "time": "2018-10-17T23:02:45+00:00"
+            "description": "WP RBR Plugin",
+            "time": "2018-10-17T23:43:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
