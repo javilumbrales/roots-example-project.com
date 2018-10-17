@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b70e9a05b387384f5afb52447c8beb8a",
+    "content-hash": "6715f54fe751697b68bf074421dc57f3",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,30 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "javilumbrales/reduce-bounce-rate",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/javilumbrales/reduce-bounce-rate.git",
+                "reference": "5a268d6066055dc3ed13585f94da4c6a14eee61e"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Javier",
+                    "email": "info@lumbrales-software.com"
+                }
+            ],
+            "description": "Reduce Boune Rate",
+            "time": "2018-10-17T23:02:45+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1034,26 +1058,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/options-importer/"
-        },
-        {
-            "name": "wpackagist-plugin/page-generator",
-            "version": "1.4.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/page-generator/",
-                "reference": "tags/1.4.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/page-generator.1.4.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/page-generator/"
         },
         {
             "name": "wpackagist-plugin/polylang",
