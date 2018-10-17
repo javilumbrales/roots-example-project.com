@@ -69,7 +69,8 @@
     "wpackagist-theme/seopress": "^1.5",
     "wpackagist-plugin/kk-star-ratings": "^2.6",
     "wpackagist-plugin/ad-inserter": "^2.3",
-    "wpackagist-plugin/disable-comment-url": "^1.0"
+    "wpackagist-plugin/disable-comment-url": "^1.0",
+    "wpackagist-plugin/page-generator": "^1.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
