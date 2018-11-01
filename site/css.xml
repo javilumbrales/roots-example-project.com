@@ -111,7 +111,8 @@
   <dc:creator>admin</dc:creator>
   <guid isPermaLink="false">https://mynewdomain.com/uncategorized/seopress/</guid>
   <description/>
-  <content:encoded><![CDATA[.headermain a h3 {
+  <content:encoded><![CDATA[
+.headermain a h3 {
     font-size: 44px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -210,6 +211,13 @@ body h2, .h2 {
 .content-third {
 	padding: 0;
 }
+@media only screen and (max-width: 600px) {
+	.headermain a h3 {
+    font-size: 30px;
+    border-bottom: 1px solid #337ab7;
+    padding: 4px;
+    padding-bottom: 12px;	}
+}
 
 @media only screen and (max-width: 480px) {
 	/* For displaying single column on mobile in Galleries */
@@ -227,10 +235,7 @@ body h2, .h2 {
 	#navbarouter {
 		display: none;
  }
- #cookie-law-info-bar {
-		text-align: right;
-	  padding-right: 12px;
- }
+
 	#cookie-law-info-bar .cli-plugin-main-link {
 		text-decoration: underline;
 	}
@@ -276,7 +281,8 @@ body h2, .h2 {
 	.headermain a h3 {
 		font-size: 22px;
 	}
-}]]></content:encoded>
+}
+      ]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>7</wp:post_id>
   <wp:post_date>2018-08-02 12:33:08</wp:post_date>
