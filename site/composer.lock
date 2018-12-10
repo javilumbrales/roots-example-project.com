@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b71388afc001baee63e64cc45f1e6",
+    "content-hash": "7f537a07d1fc9a8cb1f8b6c235cb4d74",
     "packages": [
         {
             "name": "composer/installers",
@@ -128,7 +128,7 @@
         },
         {
             "name": "javilumbrales/rbr",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javilumbrales/rbr.git",
@@ -838,26 +838,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
-        },
-        {
-            "name": "wpackagist-plugin/amazon-associates-link-builder",
-            "version": "1.8.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/amazon-associates-link-builder/",
-                "reference": "tags/1.8.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-associates-link-builder.1.8.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-associates-link-builder/"
         },
         {
             "name": "wpackagist-plugin/autoptimize",
