@@ -114,6 +114,9 @@
   <content:encoded><![CDATA[
 .headermain a h3 {
     font-size: 44px;
+    }
+.search-results .content-first .content-second h3.the-title {
+	background-color: white;
 }
 h1, h2, h3, h4, h5, h6 {
 	text-transform: none !important;
