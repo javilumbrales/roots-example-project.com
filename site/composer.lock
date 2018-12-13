@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f537a07d1fc9a8cb1f8b6c235cb4d74",
+    "content-hash": "f7303fb19c7e749d79fcc35389e9ac50",
     "packages": [
         {
             "name": "composer/installers",
@@ -940,26 +940,6 @@
             "homepage": "https://wordpress.org/plugins/cookie-law-info/"
         },
         {
-            "name": "wpackagist-plugin/disable-comment-url",
-            "version": "1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/disable-comment-url/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comment-url.zip?timestamp=1510185003",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/disable-comment-url/"
-        },
-        {
             "name": "wpackagist-plugin/gallery-lightbox-slider",
             "version": "1.0.0.29",
             "source": {
@@ -1098,6 +1078,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/related",
+            "version": "3.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/related/",
+                "reference": "tags/3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/related.3.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/related/"
         },
         {
             "name": "wpackagist-plugin/updraftplus",
