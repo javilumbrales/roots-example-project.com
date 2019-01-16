@@ -56,7 +56,7 @@
     "wpackagist-plugin/addthis": "^6.1",
     "wpackagist-plugin/updraftplus": "^1.14",
     "koodimonni-language/es_ES": "^4.9",
-    "johnpbloch/wordpress": "^4.9",
+    "johnpbloch/wordpress": "^5.0.3",
     "wpackagist-plugin/autoptimize": "^2.3",
     "wpackagist-plugin/awesome-weather": "^1.5",
     "wpackagist-plugin/polylang": "^2.3",
@@ -72,9 +72,10 @@
     "wpackagist-theme/seopress": "^1.5",
     "wpackagist-plugin/kk-star-ratings": "^2.6",
     "wpackagist-plugin/ad-inserter": "^2.3",
-    "javilumbrales/rbr": "^1.0",
     "wpackagist-plugin/insert-php": "^2.0",
-    "wpackagist-plugin/related": "^3.0"
+    "wpackagist-plugin/related": "^3.0",
+    "wpackagist-theme/apppage": "^2.9",
+    "javilumbrales/rbr": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
