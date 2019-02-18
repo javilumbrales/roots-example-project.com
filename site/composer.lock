@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b30af5e33163b7c9b8010cacb6a57c4",
+    "content-hash": "bc2dae419a29077d727d281cd6b78649",
     "packages": [
         {
             "name": "composer/installers",
@@ -880,6 +880,26 @@
             "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
+            "name": "wpackagist-plugin/autoset-featured-image",
+            "version": "1.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoset-featured-image/",
+                "reference": "tags/1.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoset-featured-image.1.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoset-featured-image/"
+        },
+        {
             "name": "wpackagist-plugin/awesome-weather",
             "version": "1.5.15",
             "source": {
@@ -1118,26 +1138,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/polylang/"
-        },
-        {
-            "name": "wpackagist-plugin/quick-featured-images",
-            "version": "13.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/quick-featured-images/",
-                "reference": "tags/13.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/quick-featured-images.13.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/quick-featured-images/"
         },
         {
             "name": "wpackagist-plugin/redirection",
