@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc2dae419a29077d727d281cd6b78649",
+    "content-hash": "9f50f61cd30b115b112522177c2216be",
     "packages": [
         {
             "name": "composer/installers",
@@ -1318,6 +1318,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-smushit/"
+        },
+        {
+            "name": "wpackagist-plugin/wpcf7-recaptcha",
+            "version": "1.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpcf7-recaptcha/",
+                "reference": "tags/1.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpcf7-recaptcha.1.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpcf7-recaptcha/"
         },
         {
             "name": "wpackagist-theme/apppage",
