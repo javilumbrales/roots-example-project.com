@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f50f61cd30b115b112522177c2216be",
+    "content-hash": "e7e21743bdc6d3e0e783bf576b5107c6",
     "packages": [
         {
             "name": "composer/installers",
@@ -1358,6 +1358,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/apppage/"
+        },
+        {
+            "name": "wpackagist-theme/delish",
+            "version": "1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/delish/",
+                "reference": "1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/delish.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/delish/"
         },
         {
             "name": "wpackagist-theme/seopress",
