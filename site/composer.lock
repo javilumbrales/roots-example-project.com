@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7e21743bdc6d3e0e783bf576b5107c6",
+    "content-hash": "a80bf999523970163df675cf5fe9eefb",
     "packages": [
         {
             "name": "composer/installers",
@@ -1138,6 +1138,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/polylang/"
+        },
+        {
+            "name": "wpackagist-plugin/qqworld-auto-save-images",
+            "version": "1.8.5.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/qqworld-auto-save-images/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/qqworld-auto-save-images.zip?timestamp=1551838176",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/qqworld-auto-save-images/"
         },
         {
             "name": "wpackagist-plugin/redirection",
