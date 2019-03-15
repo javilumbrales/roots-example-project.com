@@ -32,6 +32,7 @@ fi
 
 # Activate plugins
 wp plugin activate akismet
+wp plugin activate classic-editor
 wp plugin activate autoptimize
 wp plugin activate host-analyticsjs-local
 wp plugin activate contact-form-7
