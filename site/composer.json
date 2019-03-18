@@ -81,7 +81,8 @@
     "wpackagist-plugin/wp-latest-posts": "^4.5",
     "wpackagist-plugin/wpcf7-recaptcha": "^1.1",
     "wpackagist-theme/delish": "^1.6",
-    "wpackagist-plugin/qqworld-auto-save-images": "1.8.5.5"
+    "wpackagist-plugin/qqworld-auto-save-images": "1.8.5.5",
+    "wpackagist-plugin/easy-table-of-contents": "^1.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
